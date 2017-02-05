@@ -1,0 +1,11 @@
+<div class='embed_area'>
+  <h4>
+    <label for='embed_text'>HTML Embed Code</label>
+  </h4>
+  <textarea rows='6' cols="45"><%=
+    "<div><script type='text/javascript' charset='utf-8'> var iframe = document.createElement('iframe');document.body.appendChild(iframe); iframe.src =".html_safe + "'#{group_url}';".html_safe + "iframe.width='300rem;';iframe.height = '75rem;';</script></div>".html_safe %>
+
+  </textarea>
+</div>
+
+
