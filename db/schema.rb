@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170205065216) do
+ActiveRecord::Schema.define(version: 20170205122527) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20170205065216) do
   create_table "groups", force: :cascade do |t|
     t.string   "name"
     t.decimal  "balance",    precision: 8, scale: 2
-    t.string   "private"
+    t.string   "is_private"
     t.datetime "created_at",                         null: false
     t.datetime "updated_at",                         null: false
   end
