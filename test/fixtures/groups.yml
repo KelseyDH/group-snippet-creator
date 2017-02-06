@@ -3,9 +3,9 @@
 one:
   name: MyString
   balance: 9.99
-  is_private: MyString
+  is_private: "Y"
 
 two:
   name: MyString
   balance: 9.99
-  is_private: MyString
+  is_private: "N"
